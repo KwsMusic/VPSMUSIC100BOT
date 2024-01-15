@@ -15,12 +15,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "23392712",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "7cb236b197b25c243fa83e7e0173d0e6",
         "required": true
       },
       "AUTO_LEAVING_ASSISTANT": {
@@ -40,7 +40,7 @@
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "",
+        "value": "mongodb+srv://BWFMUSIC:BWFMUSIC@cluster0.xwnup2l.mongodb.net/?retryWrites=true&w=majority",
         "required": false
       },
       "AUTO_DOWNLOADS_CLEAR": {
@@ -55,17 +55,17 @@
       },
       "SPOTIFY_CLIENT_ID": {
         "description": "Spotify Client Id",
-        "value": "",
+        "value": "bcfe26b0ebc3428882a0b5fb3e872473",
         "required": false
       },
       "SPOTIFY_CLIENT_SECRET": {
         "description": "Spotify client secret",
-        "value": "",
+        "value": "907c6a054c214005aeae1fd752273cc4",
         "required": false
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "926151330",
+        "value": "5890162695",
         "required": true
       },
       "STRING_SESSION": {
@@ -75,12 +75,12 @@
       },
       "PING_IMG_URL": {
         "description": "The pic which will be shown when you give the /ping cmd to the bot.",
-        "value": "",
+        "value": "https://graph.org/file/a319968df3764740b8529.jpg",
         "required": false
       },
       "START_IMG_URL": {
         "description": "The pic which will be shown when you /start the bot in private.",
-        "value": "",
+        "value": "https://graph.org/file/a319968df3764740b8529.jpg",
         "required": false
       },
       "HEROKU_API_KEY": {
@@ -95,17 +95,17 @@
       },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
-        "value": "",
+        "value": "-1001822336951",
         "required": true
       },
       "SUPPORT_GROUP": {
         "description": "Link of your support group ! Channel ki id mat daal dena bsdk.",
-        "value": "https://t.me/+qX4DpUpNzv05NTY9",
+        "value": "https://t.me/BWF_MUSIC1",
         "required": false
       },
       "SUPPORT_CHANNEL": {
         "description": "Link of your telegram channel.",
-        "value": "https://t.me/AboutNihal",
+        "value": "https://t.me/SHAYRI_CHANNEL1",
         "required": false
       }
     },
