@@ -1,4 +1,4 @@
-from telegraph import upload_file
+from Ashish import upload_file
 from pyrogram import filters
 from NihalX import app
 
