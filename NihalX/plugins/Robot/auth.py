@@ -107,7 +107,7 @@ async def unauthusers(client, message: Message, _):
             if user.id in get:
                 get.remove(user.id)
         if deleted:
-            await message.reply_sticker("CAACAgUAAx0CbqFYzQACC19jRhuBrPg88cC98nkyHPUZO3Ra-wACXQYAAhipMVadDqvIJVdAQB4E")
+            await message.reply_sticker("CAACAgUAAx0Cfd2c3gACFhplpK3rLnmRfmvX4UzUSknqy-YmZQAC5RAAAhNjIVXkx5ZXaSoSdDQE")
             return await message.reply_text("**» ʀᴇᴍᴏᴠᴇᴅ ꜰʀᴏᴍ ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴜsᴇʀs ʟɪsᴛ ᴏꜰ ᴛʜɪs ɢʀᴏᴜᴘ.**")
         else:
             return await message.reply_text("**» ᴛᴀʀɢᴇᴛᴇᴅ ᴜsᴇʀ ɪs ɴᴏᴛ ᴀɴ ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴜsᴇʀ.**")
@@ -119,7 +119,7 @@ async def unauthusers(client, message: Message, _):
         if user_id in get:
             get.remove(user_id)
     if deleted:
-        await message.reply_sticker("CAACAgUAAx0CbqFYzQACC19jRhuBrPg88cC98nkyHPUZO3Ra-wACXQYAAhipMVadDqvIJVdAQB4E")
+        await message.reply_sticker("CAACAgUAAx0Cfd2c3gACFhplpK3rLnmRfmvX4UzUSknqy-YmZQAC5RAAAhNjIVXkx5ZXaSoSdDQE")
         return await message.reply_text("**» ʀᴇᴍᴏᴠᴇᴅ ꜰʀᴏᴍ ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴜsᴇʀs ʟɪsᴛ ᴏꜰ ᴛʜɪs ɢʀᴏᴜᴘ.**")
     else:
         return await message.reply_text("**» ᴛᴀʀɢᴇᴛᴇᴅ ᴜsᴇʀ ɪs ɴᴏᴛ ᴀɴ ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴜsᴇʀ.**")
