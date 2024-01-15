@@ -40,7 +40,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="✨ 𝐎ωиєя ⏎", url=f"OWNER_ID"
+                text="✨ 𝐎ωиєя ⏎", url=f"tg://openmessage?user_id={OWNER_ID}",
             ),
         ],
         [
@@ -68,7 +68,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="✨ 𝐎ωиєя ⏎", url=f"OWNER_ID"),
+            InlineKeyboardButton(text="✨ 𝐎ωиєя ⏎", url=f"tg://openmessage?user_id={OWNER_ID}",
         ],
         [
             InlineKeyboardButton(
@@ -91,7 +91,7 @@ def stream_markup(_, videoid, chat_id):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="✨ 𝐎ωиєя ⏎", url=f"OWNER_ID"),
+            InlineKeyboardButton(text="✨ 𝐎ωиєя ⏎", url=f"tg://openmessage?user_id={OWNER_ID}",
         ],
         [
             InlineKeyboardButton(
